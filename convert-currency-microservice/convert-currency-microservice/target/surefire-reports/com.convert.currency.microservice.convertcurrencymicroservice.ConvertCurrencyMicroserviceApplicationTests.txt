@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.convert.currency.microservice.convertcurrencymicroservice.ConvertCurrencyMicroserviceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.389 s - in com.convert.currency.microservice.convertcurrencymicroservice.ConvertCurrencyMicroserviceApplicationTests

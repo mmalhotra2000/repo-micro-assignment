@@ -1,0 +1,24 @@
+version: "3"
+services:
+ currency-eureka:
+  image: currency-eureka
+  ports:
+   - "8761:8761"
+
+ currency-conversion-factor-microservice:
+  image: currency-conversion-factor-microservice
+  ports:
+   - "6001:6001"
+  links:
+   - currency-eureka
+  depends_on:
+   - currency-eureka
+
+ convert-currency-microservice:
+  image: convert-currency-microservice
+  ports:
+   - "7002:7002"
+  depends_on:
+   - currency-eureka
+  links:
+   - currency-eureka

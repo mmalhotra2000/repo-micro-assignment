@@ -101,6 +101,9 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>
+				CurrencyConversionFactorMicroserviceApplication
+		</finalName>
 	</build>
 
 	<repositories>
